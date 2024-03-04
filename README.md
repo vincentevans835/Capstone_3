@@ -32,9 +32,9 @@ Mengunnakan Recall karena dalam kasus error jauh lebih baik False Positive karen
 
 ## Pre Processing
 
-1. Encoding:
-   a. Binary Encode,Kolom : Agency, Product Name, Destination
-   b. One Hot Encode,Kolom : Agency Type, Distribution Channel 
+1. Encoding:  
+   a. Binary Encode,Kolom : Agency, Product Name, Destination  
+   b. One Hot Encode,Kolom : Agency Type, Distribution Channel  
 2. Scaling, Jenis: Robust Scaler, Kolom: Duration, Age
 3. Resampling, Jenis: Random Under Sampler
 
