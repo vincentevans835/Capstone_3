@@ -6,7 +6,7 @@ Dalam beberapa tahun terakhir, penggunaan travel insurance telah meningkat secar
 Namun, bagi perusahaan asuransi, manajemen klaim travel insurance bisa menjadi proses yang rumit. Data yang dihasilkan dari klaim-klaim sebelumnya dapat memberikan wawasan berharga, namun memproses data ini secara manual sangatlah tidak efisien dan rentan terhadap kesalahan.
 Oleh karena itu, perusahaan asuransi semakin beralih ke teknologi machine learning untuk membantu dalam menganalisis data klaim travel insurance.
 
-## Data Understanding
+## Feature Engineering
 Target Kolom: Claim
 
 Feature yang digunakan:
@@ -32,6 +32,10 @@ Mengunnakan Recall karena dalam kasus error jauh lebih baik False Positive karen
 
 ## Pre Processing
 
-
+1. Encoding:
+   a. Binary Encode,Kolom : Agency, Product Name, Destination
+   b. One Hot Encode,Kolom : Agency Type, Distribution Channel 
+2. Scaling, Jenis: Robust Scaler, Kolom: Duration, Age
+3. Resampling, Jenis: Random Under Sampler
 
 
