@@ -6,3 +6,32 @@ Dalam beberapa tahun terakhir, penggunaan travel insurance telah meningkat secar
 Namun, bagi perusahaan asuransi, manajemen klaim travel insurance bisa menjadi proses yang rumit. Data yang dihasilkan dari klaim-klaim sebelumnya dapat memberikan wawasan berharga, namun memproses data ini secara manual sangatlah tidak efisien dan rentan terhadap kesalahan.
 Oleh karena itu, perusahaan asuransi semakin beralih ke teknologi machine learning untuk membantu dalam menganalisis data klaim travel insurance.
 
+## Data Understanding
+Target Kolom: Claim
+
+Feature yang digunakan:
+1. Agency
+2. Agency Type
+3. Distribution Channel
+4. Product Name
+5. Duration
+6. Destination
+7. Age
+
+## Metrics
+
+Type 1 error (False Positive): 
+Diprediksi mengclaim asuransi tetapi sebenarnya tidak claim
+
+Type 2 error (False Negative):
+Diprediksi tidak claim asuransi tetapi sebenarnya mengclaim
+
+Metrix yang digunakan: Recall
+
+Mengunnakan Recall karena dalam kasus error jauh lebih baik False Positive karena jika False Negative maka client akan mendapatkan premi yang murah namun ternyata client tersebut mengclaim asuransi sehingga terjadi kerugian secara financial
+
+## Pre Processing
+
+
+
+
