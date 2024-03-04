@@ -18,6 +18,13 @@ Feature yang digunakan:
 6. Destination
 7. Age
 
+## Model Machine Learning:
+1. Logistic Regression
+2. Decision Tree
+3. Random Forrest
+4. XG Boost
+5. Ada Boost
+
 ## Metrics
 
 Type 1 error (False Positive): 
